@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroImage from '../components/molecules/HeroImage.astro';
+import Button from '../components/atoms/Button.astro';
+import Card from '../components/molecules/Card.astro';
+---
+<BaseLayout title="Innoviter | Digitale Innovation für Organisationen">
+
+  <h1>Von der Idee bis zum Betrieb.</h1>
+
+  <h2>Ich baue digitale Systeme, die halten – und betreibe sie, damit sie es auch tun.</h2>
+
+  <Button href="/de/kontakt/" title="Kontakt">Gespräch vereinbaren</Button>
+
+  <p>Ich konzipiere digitale Systeme, entwickle sie und stelle sicher, dass sie zuverlässig laufen. Seit 2004. Über 100 Projekte – von der Marketing-Website bis zur SaaS-Plattform.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <Card title="Architektur & Entwicklung">
+      Ich denke in Systemen, nicht in Features. Von der Datenbank bis zur Benutzeroberfläche – mit dem Ziel, dass Software langfristig wartbar und erweiterbar bleibt.
+    </Card>
+
+    <Card title="KI & Automatisierung">
+      Ich integriere KI dort, wo sie echten Nutzen bringt: in Workflows, Content-Prozessen und Produkten. Keine Experimente um der Experimente willen.
+    </Card>
+
+    <Card title="Produkte & Betrieb">
+      Ideen zu bauen reicht nicht – sie müssen laufen, skalieren und gewartet werden. Ich begleite Projekte vom ersten Commit bis zum produktiven Betrieb.
+    </Card>
+  </div>
+
+  <h2>Ausgewählte Projekte</h2>
+
+  <p><a href="/de/kontakt/">Bist du bereit, deine Projektidee in die Tat umzusetzen? Kontaktiere uns jetzt und lass' uns reden.</a></p>
+
+</BaseLayout>
